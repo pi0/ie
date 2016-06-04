@@ -1,2 +1,1 @@
-# ie
-Internet Engineering Project 
+# Internet Engineering Course Sample Projects
