@@ -1,0 +1,286 @@
+/* Fonts */
+@font-face {
+    font-family: 'yekan';
+    src: url('../fonts/yekan.eot');
+    src: url('../fonts/yekan.eot#iefix') format('embedded-opentype');
+    src: url('../fonts/yekan.woff') format('woff');
+    src: url('../fonts/yekan.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Body */
+body {
+    margin: 0;
+    direction: rtl;
+    font-size: 15px;
+    line-height: 30px;
+    font-family: yekan, tahoma, arial, serif !important;
+    background-color: rgb(209, 209, 215);
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Bar */
+
+.bar {
+    border: 1px solid #D4D4DB;
+    background: #F7F8FF;
+    height: 38px;
+}
+
+.bar-compact {
+    display: inline-block;
+}
+
+.bar-title {
+    border-right: 1px solid #D7D8DF;
+    box-shadow: inset 0 0 15px 0 rgba(0,0,0,0.1);
+    display: inline-block;
+    padding: 8px 12px 0;
+}
+
+/* Header */
+
+.header {
+    height: 100px;
+    background-color: black;
+    padding: 0px 81px 10px;
+}
+
+.header-logo {
+    width: 268px;
+    height: 90px;
+    float: left;
+}
+
+/* Top Nav */
+
+.top-nav {
+    height: 60px;
+    background-color: rgb(39, 39, 40);
+    border-top: 1px solid rgb(77, 77, 82);
+    padding: 0 100px;
+}
+
+.top-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.top-nav-item  {
+    float: right;
+}
+
+.top-nav-item  a {
+    color: rgb(222, 222, 230);
+    display: block;
+    padding: 10px 18px 2px;
+}
+
+.top-nav-item:hover > a{
+    padding-top: 7px;
+    background-color: #343437;
+    border-top: 3px solid grey;
+}
+
+
+.top-nav-item > a span {
+    display: block;
+    font-weight: 300;
+}
+
+
+.nav-dropdown {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    width:90%;
+    left: 5%;
+    right: 5%;
+    margin-top: -10px;
+    min-height: 300px;
+}
+
+.top-nav-item:hover .nav-dropdown{
+    display: flex;
+}
+
+.top-nav-item:hover .nav-arrow{
+    display: block;
+}
+
+.nav-dropdown li a{
+    padding: 1px 15px;
+}
+
+.nav-dropdown-side {
+    min-width: 165px;
+    background: rgb(39, 39, 40);
+}
+
+
+.top-nav ul li a .nav-icon {
+    background-size: 16px;
+    padding: 8px;
+}
+
+.nav-arrow {
+    position: relative;
+    z-index: 999;
+    bottom: 0px;
+    width: 17px;
+    height: 9px;
+    float: none;
+    background: url('../Zoomg/arrow-down-menu.png') no-repeat 0 0;
+    background-size: 17px 9px!important;
+    margin: 0 auto 1px;
+    display: none;
+}
+
+/*--News nav*/
+.nav-news:hover > a {
+    border-top: 3px solid green;
+}
+
+.nav-news .active a , .nav-news a:hover{
+    color:blue;
+}
+.nav-news .nav-icon {
+    background: url('../Zoomg/icon/calendar_icon_64_white.png') no-repeat center;
+}
+
+/* Container */
+.container {
+    min-height: 1500px;
+}
+
+/* title */
+.title {
+    padding-top: 50px;
+    color: white;
+    text-align: center;
+}
+
+.title h1 {
+    font-size: 70px;
+    line-height: 85px;
+}
+
+.title .title-author img {
+    width: 40px;
+    height: 40px;
+    border-radius: 999px;
+    border: 5px solid white;
+}
+
+/* Page-bg */
+
+.page-bg {
+    background-image: url('../Zoomg/krampusa.jpg') !important;
+    background-position: center 20%;
+    background-size: cover;
+    height: 900px;
+    width: 100%;
+    position: absolute;
+    top: 170px;
+    z-index: -1;
+}
+
+.page-bg-overlay {
+    background: linear-gradient(to bottom, rgba(210, 210, 216, 0) 30%, rgba(210, 210, 216, 1) 100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Page */
+
+.page {
+    display: flex;
+    background-color: white;
+    margin: 90px 50px;
+    padding: 20px;
+}
+
+.post {
+
+}
+
+.sidebar {
+    min-width:390px;
+}
+
+/* Comments */
+
+.comments {
+
+}
+
+.comment {
+
+}
+
+.comment-title {
+    vertical-align: middle;
+
+}
+
+.comment-date {
+
+}
+
+.comment-author {
+    font-size: 19px;
+    margin-left: 15px;
+    color: black;
+}
+
+.comment-avatar {
+    float: right;
+    width: 10%;
+}
+
+.comment-content {
+    float: left;
+    width: 90%;
+}
+
+.comment-avatar img{
+    width: 50px;
+    height: 50px;
+}
+
+/* Article */
+
+.article {
+    margin: 15px 0 0;
+    clear: both;
+    display: flex;
+}
+
+.article-img {
+}
+
+.article-img img {
+    height: 115px;
+    width: 115px;
+}
+
+.article-content {
+    padding-right: 30px;
+}
+
+/* Footer */
+.footer {
+    width: 100%;
+    background-color: black;
+    min-height: 500px;
+}
