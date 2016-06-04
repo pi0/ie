@@ -11,35 +11,35 @@
            max-onlines-border-style="dashed">
         <game active="true">
             <name>sudoku</name>
-            <image>http://ie.ce-it.ir/hw3/images/sudoku.png</image>
-            <url>http://ie.ce-it.ir/hw3/xml/sudoku.xml</url>
+            <image>./images/sudoku.png</image>
+            <url>./xml/sudoku.xml</url>
             <onlines>6</onlines>
             <text color="black" hover="#88000D">Play Sudoku!</text>
         </game>
         <game active="true">
             <name>chess</name>
-            <image>http://ie.ce-it.ir/hw3/images/chess.jpg</image>
-            <url>http://ie.ce-it.ir/hw3/xml/chess.xml</url>
+            <image>./images/chess.jpg</image>
+            <url>./xml/chess.xml</url>
             <onlines>3</onlines>
             <text color="black" hover="#aaa">Play Chess!</text>
         </game>
         <game active="false">
             <name>maze</name>
-            <image>http://ie.ce-it.ir/hw3/images/maze.png</image>
+            <image>./images/maze.png</image>
             <url></url>
             <onlines>0</onlines>
             <text color="olive" hover="#880088">Play Maze!</text>
         </game>
         <game active="false">
             <name>mario</name>
-            <image>http://ie.ce-it.ir/hw3/images/mario.gif</image>
+            <image>./images/mario.gif</image>
             <url></url>
             <onlines>0</onlines>
             <text color="green" hover="blue">Play mario!</text>
         </game>
         <game active="false">
             <name>snake</name>
-            <image>http://ie.ce-it.ir/hw3/images/snake.jpg</image>
+            <image>./images/snake.jpg</image>
             <url></url>
             <onlines>0</onlines>
             <text color="black" hover="#88000D">Play Snake!</text>
